@@ -6,7 +6,6 @@ DocuMind, PDF dosyalarından özet çıkaran ve gelecekte belge içeriğiyle soh
 
 ### Backend
 
-
 cd backend
 python3 -m venv venv
 source venv/bin/activate
@@ -18,3 +17,4 @@ uvicorn main:app --reload
 cd frontend
 npm install
 npm run dev
+
