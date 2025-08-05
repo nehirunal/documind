@@ -2,3 +2,10 @@ backend/venv/
 
 venv/
 venv/
+.env
+__pycache__/
+*.pyc
+*.log
+venv/
+email_log.txt
+.DS_Store
