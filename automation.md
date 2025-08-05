@@ -15,6 +15,9 @@ Bu sistem hem manuel olarak tetiklenebilir hem de her gün belirli saatte `cron`
 
 \---
 
+\## 🔗 GitHub Reposu  
+https://github.com/nehirunal/documind
+
 \## 🤖 Kullanılan Agent Mimarisi
 
 \### 📦 Teknolojiler
@@ -67,7 +70,7 @@ E-posta özeti sisteminin çalışabilmesi için önce **abonelik** işlemi yap�
 
 ```bash
 # Proje dizinine git
-cd ~/Desktop/documindkopyası
+cd ~/Desktop/documind
 
 # Sanal ortamı aktifleştir
 source backend/venv/bin/activate
