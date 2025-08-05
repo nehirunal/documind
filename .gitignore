@@ -9,3 +9,4 @@ __pycache__/
 venv/
 email_log.txt
 .DS_Store
+venv/
