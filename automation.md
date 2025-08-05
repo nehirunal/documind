@@ -55,6 +55,33 @@ Bu sistem hem manuel olarak tetiklenebilir hem de her gün belirli saatte `cron`
 
 \---
 
+### ✋ Sistemi Manuel Olarak Çalıştırmak
+
+E-posta özeti sisteminin çalışabilmesi için önce **abonelik** işlemi yapılmalıdır. Kullanıcılar, frontend arayüzündeki **"Günlük Haber Özeti"** butonuna tıklayarak **e-posta adreslerini sisteme kaydetmelidir**. Bu işlem sonucunda e-posta adresleri `backend/data/subscribers.txt` dosyasına otomatik olarak eklenir.
+
+> ❗ Eğer kullanıcı e-posta adresini bırakmamışsa, sistem haber özetini hiçbir kullanıcıya gönderemez.
+
+---
+
+#### 🔹 Terminal Üzerinden Manuel Çalıştırma
+
+```bash
+# Proje dizinine git
+cd ~/Desktop/documindkopyası
+
+# Sanal ortamı aktifleştir
+source backend/venv/bin/activate
+
+# Agent'i manuel olarak çalıştır
+python backend/agents/email_agent.py
+
+
+#FastAPI Üzerinden (GET endpoint)
+Backend çalışıyorsa aşağıdaki endpoint ile sistem tetiklenebilir:
+GET http://localhost:8000/run-agent
+
+
+
 \## ⚙️ FastAPI Endpoint’leri (\`main.py\`)
 
 | Route | Açıklama |
