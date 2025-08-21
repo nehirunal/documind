@@ -9,3 +9,4 @@ backend/data/token.json
 backend/data/selected_newsletters.json
 .env
 .env.local
+backend/venv/
