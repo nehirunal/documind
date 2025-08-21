@@ -8,7 +8,9 @@ import time, uuid
 from dotenv import load_dotenv
 
 from langchain_openai import ChatOpenAI
-from langchain.schema import SystemMessage, HumanMessage
+
+from langchain_core.messages import SystemMessage, HumanMessage
+
 import aiohttp
 from datetime import datetime
 
