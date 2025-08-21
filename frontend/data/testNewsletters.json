@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1",
+    "title": "AI Weekly #45",
+    "content": "This week in AI: OpenAI released a new fine-tuning method, Google DeepMind improved AlphaFold's accuracy, and Meta discussed LLaMA’s training optimization techniques.",
+     "category": "AI"  
+  },
+  {
+    "id": "2",
+    "title": "Sürdürülebilirlik Gündemi",
+    "content": "Bu hafta Avrupa Birliği yeni karbon vergisini açıkladı. Türkiye’de güneş enerjisi yatırımları hız kazandı.",
+    "category": "Sustainability"
+  },
+  {
+    "id": "3",
+    "title": "NYT Cooking: Fırında Kabak Dolması",
+    "content": "Bu tarifte kabak içi doldurularak fırınlanıyor. İç harcında pirinç, yeşillik ve baharatlar kullanılıyor. Yanında yoğurtla servis öneriliyor.",
+    "category": "Film"
+
+  }
+]
