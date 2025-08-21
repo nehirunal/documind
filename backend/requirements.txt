@@ -48,6 +48,6 @@ email-validator==2.2.0
 
 passlib[bcrypt]==1.7.4
 
-langchain-core==0.2.34
+langchain-core
 langchain-openai==0.2.3
 
