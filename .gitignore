@@ -10,3 +10,7 @@ backend/data/selected_newsletters.json
 .env
 .env.local
 backend/venv/
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+.DS_Store
